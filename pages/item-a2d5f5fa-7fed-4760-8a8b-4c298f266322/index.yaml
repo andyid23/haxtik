@@ -5,10 +5,21 @@ slug: new-page
 order: 1
 parent: null
 title: New Page
-description: ''
+description: |
+
+  Deep thoughts..
+  Deep thoughts..
 metadata:
   created: 1785688849
-  updated: 1785688849
+  updated: 1785688875
   images: []
   videos: []
-content: <p></p>
+  published: true
+  hideInMenu: false
+  locked: false
+  readtime: 1
+content: |
+
+  <p></p>
+  <p>Deep thoughts..</p>
+  <p>Deep thoughts..</p>
