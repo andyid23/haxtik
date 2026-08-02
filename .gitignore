@@ -5,3 +5,4 @@ yarn.lock
 !custom/build
 !build/es6/node_modules
 !build/es6/node_modules/**
+.env
