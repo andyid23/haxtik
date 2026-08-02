@@ -25,7 +25,7 @@
         "canonical": true
       },
       "created": 1698074988,
-      "updated": 1785689679,
+      "updated": 1785689130,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -105,7 +105,7 @@
       "order": 1,
       "parent": null,
       "title": "New Page",
-      "description": "Dashboard dan kuis interaktif dengan efek confetti.",
+      "description": "\nDeep thoughts..\n\ndsafds\ndsafdsafds\n\n",
       "metadata": {
         "created": 1785689099,
         "updated": 1785689130,
@@ -115,42 +115,6 @@
         "hideInMenu": false,
         "locked": false,
         "readtime": 1
-      }
-    },
-    {
-      "id": "item-e281423f-a030-4194-b4de-b96b83193366",
-      "indent": 0,
-      "location": "pages/item-e281423f-a030-4194-b4de-b96b83193366/index.html",
-      "slug": "new-page-1",
-      "order": 2,
-      "parent": null,
-      "title": "New Page",
-      "description": "\n\n\n\n",
-      "metadata": {
-        "created": 1785689665,
-        "updated": 1785689679,
-        "images": [],
-        "videos": [],
-        "published": true,
-        "hideInMenu": false,
-        "locked": false,
-        "readtime": 1
-      }
-    },
-    {
-      "id": "item-730ec4c4-025c-4dfc-b76b-b38dc9ba8062",
-      "indent": 0,
-      "location": "pages/item-730ec4c4-025c-4dfc-b76b-b38dc9ba8062/index.html",
-      "slug": "new-page-2",
-      "order": 3,
-      "parent": null,
-      "title": "New Page",
-      "description": "",
-      "metadata": {
-        "created": 1785690063,
-        "updated": 1785690063,
-        "images": [],
-        "videos": []
       }
     }
   ]

@@ -3,7 +3,7 @@
   <title>HAX Single Site</title>
   <link href="https://localhost:3000/sites/haxtheweb/" rel="self" />
   <subtitle></subtitle>
-  <updated>2026-08-02T16:54:39.000Z</updated>
+  <updated>2026-05-20T21:03:42.000Z</updated>
   <author>
       <name></name>
   </author>
@@ -110,115 +110,24 @@ command!</p>
     <id>item-d0c7dd00-049e-4093-91ef-bfceae737dc1</id>
     <updated>2026-08-02T16:45:30.000Z</updated>
     <published>2026-08-02T16:44:59.000Z</published>
-    <summary>Dashboard dan kuis interaktif dengan efek confetti.</summary>
+    <summary>
+Deep thoughts..
+
+dsafds
+dsafdsafds
+
+</summary>
     <link href="https://localhost:3000/sites/haxtheweb/new-page"/>
     
     <content type="html">
       <![CDATA[ 
+<p></p>
 <p>Deep thoughts..</p>
-
-<quiz-dashboard title="Dashboard Kuis"></quiz-dashboard>
-
-<quiz-user-auth id="auth" apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec"></quiz-user-auth>
-
-<explode-quiz
-  id="uh1"
-  sheet-name="Ulangan Harian 2"
-  quiz-category="ulangan_harian"
-  apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec"
-  editable="true"
-  questions='[
-    {"question": "Apa kepanjangan dari HAX?", "choices": ["Hyper-Active X", "Hybrid Authoring eXperience", "High Accuracy XML", "Hyper Access X"], "correct": 1},
-    {"question": "Lit Element digunakan untuk?", "choices": ["Database", "Komponen Web Custom", "Mobile App", "Operating System"], "correct": 1},
-    {"question": "Google Sheets API digunakan untuk?", "choices": ["Desain Grafis", "Manipulasi Data Spreadsheet", "Video Editing", "Music Production"], "correct": 1}
-  ]'>
-</explode-quiz>
+<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs"></h2>
+<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs">dsafds</h2>
+<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs">dsafdsafds</h2>
+<p></p>
  ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>New Page</title>
-    <id>item-e281423f-a030-4194-b4de-b96b83193366</id>
-    <updated>2026-08-02T16:54:39.000Z</updated>
-    <published>2026-08-02T16:54:25.000Z</published>
-    <summary>
-
-
-
-</summary>
-    <link href="https://localhost:3000/sites/haxtheweb/new-page-1"/>
-    
-    <content type="html">
-      <![CDATA[ 
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-
-  <!-- STEP 2: Tugas + Forum -->
-  <div class="step">
-    <h2><span class="step-num">2</span> Tugas Mandiri & Forum Diskusi</h2>
-    <p style="font-size:13px;color:#666;">Tugas tersimpan ke <code>Tugas Log</code> sheet. Forum CRUD via <code>Forum Log</code> sheet (nested replies, like, sort).</p>
-    <assignment-forum
-    hide-delete
-      id="af1"
-      assignment-title="Refleksi Energi Terbarukan"
-      assignment-instruction="Tuliskan refleksi: kontribusi apa yang bisa Anda lakukan untuk mendukung energi terbarukan di lingkungan rumah? Sertakan link Google Drive/Doc jika ada file pendukung."
-      forum-topik="Diskusi: Potensi Energi Terbarukan"
-      apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec"
-      forum-api-url="https://script.google.com/macros/s/AKfycbyWqGKSDIm1el5_fzK331QIDWGR-xvpm1dQmaObC_2D0lHbStxAPHIxYFNktbicy6-NwQ/exec"
-      sheet-name="LD-2"
-      view-mode="lecturer">
-    </assignment-forum>
-  </div>
-
-  <!-- STEP 3: Kuis Formatif -->
-  <div class="step">
-    <h2><span class="step-num">3</span> Kuis Formatif</h2>
-    <explode-quiz hide-answers hide-confetti editable="true"
-      id="quiz1"
-      sheet-name="Pertemuan 1"
-      quiz-category="formatif"
-      apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec"
-      shuffle-choices
-      questions='[
-        {"type":"mc","question":"Apa kepanjangan HTML?","choices":["HyperText Markup Language","High Text Machine Language","Home Tool Markup Language","Hyperlinks Text Markup"],"correctIndex":0},
-        {"type":"mc","question":"Bahasa pemrograman browser?","choices":["Python","JavaScript","Java","C++"],"correctIndex":1},
-        {"type":"mc","question":"Shadow DOM berfungsi untuk?","choices":["Database","Encapsulated DOM","Server","CSS"],"correctIndex":1}
-      ]'>
-    </explode-quiz>
-  </div>
-
-  <!-- STEP 4: Dashboard Dosen -->
-  <!-- <div class="step"> -->
-    <h2><span class="step-num">4</span> Dashboard Dosen (Nilai + Rapor)</h2>
-    <p style="font-size:13px;color:#666;">Mode dosen: generate rapor, input UTS/UAS manual, atur 6 komponen bobot (Kehadiran:UH:UTS:UAS:Sikap:Skill). Auto-calc sikap dari tugas+forum, skill dari quiz+baca.</p>
-    <quiz-dashboard-lite2
-    quiz-tab-hidden
-    view-mode="student"
-      apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec"
-      sheet-name="Pertemuan 1"
-      view-mode="lecturer">
-    </quiz-dashboard-lite2>
-    <transparent-gradebook
-      show-after-quiz
-      ...>
-    </transparent-gradebook>
-
-  <!-- </div> -->
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>New Page</title>
-    <id>item-730ec4c4-025c-4dfc-b76b-b38dc9ba8062</id>
-    <updated>2026-08-02T17:01:03.000Z</updated>
-    <published>2026-08-02T17:01:03.000Z</published>
-    <summary></summary>
-    <link href="https://localhost:3000/sites/haxtheweb/new-page-2"/>
-    
-    <content type="html">
-      <![CDATA[ <p></p> ]]>
     </content>
   </entry>
 </feed>
