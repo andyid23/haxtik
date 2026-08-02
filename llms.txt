@@ -11,8 +11,9 @@ Managed files (feeds, search indexes, manifests, and this `llms.txt`) are genera
 
 ## Pages
 - [Welcome](https://localhost:3000/sites/haxtheweb/pages/item-fe4da09a-b9cf-483d-b2d5-6397785f61fe/index.md): Welcome to your new HAX site! Click edit on the top bar to get started This is a boilerplate so that you can add and make new things from the npx @haxtheweb/haxcms-nodejscommand What can I do? We've
-- [New Page](https://localhost:3000/sites/haxtheweb/pages/item-d0c7dd00-049e-4093-91ef-bfceae737dc1/index.md): Deep thoughts.. dsafds dsafdsafds
+- [New Page](https://localhost:3000/sites/haxtheweb/pages/item-d0c7dd00-049e-4093-91ef-bfceae737dc1/index.md): Dashboard dan kuis interaktif dengan efek confetti.
 - [New Page](https://localhost:3000/sites/haxtheweb/pages/item-e281423f-a030-4194-b4de-b96b83193366/index.md)
+- [New Page](https://localhost:3000/sites/haxtheweb/pages/item-730ec4c4-025c-4dfc-b76b-b38dc9ba8062/index.md)
 
 ## Optional
 - [Search index](https://localhost:3000/sites/haxtheweb/lunrSearchIndex.json): Lunr corpus for quick full-text retrieval.
