@@ -1,0 +1,21 @@
+# HAX Single Site
+
+> own course
+
+HAXcms is a file-based CMS: authored pages and metadata are stored as portable files, not locked into a database-only workflow.
+The canonical site structure is `site.json`, represented in JSON Outline Schema (`id`, `parent`, `order`, `slug`, `location`, and `metadata`).
+Use HAX CLI and ecosystem tooling to maintain human-authored content while keeping machine-readable outputs synchronized.
+Managed files (feeds, search indexes, manifests, and this `llms.txt`) are generated artifacts and should be rebuilt by tooling.
+
+## Core resources
+- [site.json](https://localhost:3000/sites/haxtheweb/site.json): Canonical site manifest and navigation tree in JSON Outline Schema format.
+- [llms.txt](https://localhost:3000/sites/haxtheweb/llms.txt): LLM-oriented guide to this site and its machine-readable resources.
+
+## Pages
+- [Welcome](https://localhost:3000/sites/haxtheweb/pages/item-fe4da09a-b9cf-483d-b2d5-6397785f61fe/index.md): Welcome to your new HAX site! Click edit on the top bar to get started This is a boilerplate so that you can add and make new things from the npx @haxtheweb/haxcms-nodejscommand What can I do? We've
+
+## Optional
+- [Search index](https://localhost:3000/sites/haxtheweb/lunrSearchIndex.json): Lunr corpus for quick full-text retrieval.
+- [RSS feed](https://localhost:3000/sites/haxtheweb/rss.xml): Site updates in RSS format.
+- [Atom feed](https://localhost:3000/sites/haxtheweb/atom.xml): Site updates in Atom format.
+- [Sitemap](https://localhost:3000/sites/haxtheweb/sitemap.xml): URL-level discovery map for the published site.

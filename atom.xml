@@ -108,13 +108,20 @@ command!</p>
   <entry>
     <title>New Page</title>
     <id>item-a2d5f5fa-7fed-4760-8a8b-4c298f266322</id>
-    <updated>2026-08-02T16:40:49.000Z</updated>
+    <updated>2026-08-02T16:41:15.000Z</updated>
     <published>2026-08-02T16:40:49.000Z</published>
-    <summary></summary>
+    <summary>
+Deep thoughts..
+Deep thoughts..
+</summary>
     <link href="https://localhost:3000/sites/haxtheweb/new-page"/>
     
     <content type="html">
-      <![CDATA[ <p></p> ]]>
+      <![CDATA[ 
+<p></p>
+<p>Deep thoughts..</p>
+<p>Deep thoughts..</p>
+ ]]>
     </content>
   </entry>
 </feed>
