@@ -9,7 +9,7 @@
   "description": "\nDeep thoughts..\nDeep thoughts..\n",
   "metadata": {
     "created": 1785688849,
-    "updated": 1785688875,
+    "updated": 1785688944,
     "images": [],
     "videos": [],
     "published": true,
@@ -17,5 +17,5 @@
     "locked": false,
     "readtime": 1
   },
-  "content": "\n<p></p>\n<p>Deep thoughts..</p>\n<p>Deep thoughts..</p>\n"
+  "content": "\n<p></p>\n<p>Deep thoughts..</p>\n<h2 data-style-guide=\"headline\" data-design-treatment=\"vert\" data-primary=\"8\" data-padding=\"xs\" data-border-radius=\"xs\"></h2>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<stop-note title=\"Hold up there\" accent-color=\"grey\" icon=\"stopnoteicons:stop-icon\" status=\"stop\" message=\"&#60;strong&#62;Read these important things!&#60;/strong&#62;\n\"><p slot=\"message\"><strong>Read these important things!</strong>\n</p>\n\n</stop-note>\n<learning-component subtitle=\"Unit 1\" type=\"\"><p>By the end of this lesson, you should be able to...</p></learning-component>\n<p>Deep thoughts..</p>\n"
 }

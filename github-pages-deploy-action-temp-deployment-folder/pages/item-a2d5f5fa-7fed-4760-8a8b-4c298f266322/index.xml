@@ -13,7 +13,7 @@ Deep thoughts..
 </description>
 <metadata>
 <created>1785688849</created>
-<updated>1785688875</updated>
+<updated>1785688944</updated>
 <images>
 </images>
 <videos>
@@ -26,6 +26,18 @@ Deep thoughts..
 <content><![CDATA[
 <p></p>
 <p>Deep thoughts..</p>
+<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs"></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<stop-note title="Hold up there" accent-color="grey" icon="stopnoteicons:stop-icon" status="stop" message="&#60;strong&#62;Read these important things!&#60;/strong&#62;
+"><p slot="message"><strong>Read these important things!</strong>
+</p>
+
+</stop-note>
+<learning-component subtitle="Unit 1" type=""><p>By the end of this lesson, you should be able to...</p></learning-component>
 <p>Deep thoughts..</p>
 ]]></content>
 </item>

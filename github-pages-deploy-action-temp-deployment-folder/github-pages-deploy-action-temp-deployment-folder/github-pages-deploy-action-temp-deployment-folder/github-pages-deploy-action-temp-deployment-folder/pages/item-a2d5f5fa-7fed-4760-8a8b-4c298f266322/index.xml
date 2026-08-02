@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>item-a2d5f5fa-7fed-4760-8a8b-4c298f266322</id>
+<indent>0</indent>
+<location>pages/item-a2d5f5fa-7fed-4760-8a8b-4c298f266322/index.xml</location>
+<slug>new-page</slug>
+<order>1</order>
+<parent></parent>
+<title>New Page</title>
+<description></description>
+<metadata>
+<created>1785688849</created>
+<updated>1785688849</updated>
+<images>
+</images>
+<videos>
+</videos>
+</metadata>
+<content><![CDATA[<p></p>]]></content>
+</item>

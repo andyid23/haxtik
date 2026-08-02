@@ -6,7 +6,7 @@
     <description></description>
     <copyright>Copyright (C) 2026 https://localhost:3000/sites/haxtheweb</copyright>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 21:03:42 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 16:41:15 GMT</lastBuildDate>
     <generator>HAXcms NodeJS</generator>
     <atom:link href="https://localhost:3000/sites/haxtheweb/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -19,7 +19,7 @@
     <item>
       <title>New Page</title>
       <link>https://localhost:3000/sites/haxtheweb/new-page</link>
-      <description>Deep thoughts.. Deep thoughts..</description>
+      <description>Deep thoughts.. Read these important things! By the end of this lesson, you should be able to... Deep thoughts..</description>
       <guid>https://localhost:3000/sites/haxtheweb/new-page</guid>
       <pubDate>Sun, 02 Aug 2026 16:40:49 GMT</pubDate>
     </item>
