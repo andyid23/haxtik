@@ -1,0 +1,20 @@
+{
+  "name": "haxtheweb",
+  "version": "26.0.0",
+  "description": "own course",
+  "main": "index.html",
+  "author": {
+    "name": "btopro"
+  },
+  "license": "Apache-2.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "npm run serve",
+    "ghpages:build": "rm index.html && mv ghpages.html index.html && rm assets/babel* && rm build && rm wc-registry.json",
+    "serve": "npx @haxtheweb/haxcms-nodejs",
+    "dev": "NODE_ENV=development npm run serve"
+  }
+}
