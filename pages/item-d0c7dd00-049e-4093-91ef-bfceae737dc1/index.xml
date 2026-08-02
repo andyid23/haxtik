@@ -7,13 +7,7 @@
 <order>1</order>
 <parent></parent>
 <title>New Page</title>
-<description>
-Deep thoughts..
-
-dsafds
-dsafdsafds
-
-</description>
+<description>Dashboard dan kuis interaktif dengan efek confetti.</description>
 <metadata>
 <created>1785689099</created>
 <updated>1785689130</updated>
@@ -27,11 +21,9 @@ dsafdsafds
 <readtime>1</readtime>
 </metadata>
 <content><![CDATA[
-<p></p>
 <p>Deep thoughts..</p>
-<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs"></h2>
-<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs">dsafds</h2>
-<h2 data-style-guide="headline" data-design-treatment="vert" data-primary="8" data-padding="xs" data-border-radius="xs">dsafdsafds</h2>
-<p></p>
+<quiz-dashboard title="Dashboard Kuis"></quiz-dashboard>
+<quiz-user-auth id="auth" apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec"></quiz-user-auth>
+<explode-quiz id="uh1" sheet-name="Ulangan Harian 2" quiz-category="ulangan_harian" apps-script-url="https://script.google.com/macros/s/AKfycbzwwv-XI1EC3puQdS8rsTjOobw8rmNXOqOkklInfFB5xBdQJ83po2lq-gxRtDuiE5LG/exec" editable="true" questions='[{"question": "Apa kepanjangan dari HAX?", "choices": ["Hyper-Active X", "Hybrid Authoring eXperience", "High Accuracy XML", "Hyper Access X"], "correct": 1}, {"question": "Lit Element digunakan untuk?", "choices": ["Database", "Komponen Web Custom", "Mobile App", "Operating System"], "correct": 1}, {"question": "Google Sheets API digunakan untuk?", "choices": ["Desain Grafis", "Manipulasi Data Spreadsheet", "Video Editing", "Music Production"], "correct": 1}]'></explode-quiz>
 ]]></content>
 </item>

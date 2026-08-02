@@ -1,7 +1,3 @@
 Deep thoughts..
 
-dsafds
-------
-
-dsafdsafds
-----------
+Dashboard dan kuis interaktif dengan efek confetti.
