@@ -6,12 +6,16 @@
   "order": 2,
   "parent": null,
   "title": "New Page",
-  "description": "",
+  "description": "\n\n\n\n",
   "metadata": {
     "created": 1785689665,
-    "updated": 1785689665,
+    "updated": 1785689679,
     "images": [],
-    "videos": []
+    "videos": [],
+    "published": true,
+    "hideInMenu": false,
+    "locked": false,
+    "readtime": 1
   },
-  "content": "<p></p>"
+  "content": "\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n"
 }
