@@ -1,17 +1,23 @@
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "max-age=31536001"
-    Cross-Origin-Opener-Policy = "same-origin"
-    Cross-Origin-Embedder-Policy = "require-corp"
+for = "/*"
 
-
-[[headers]]
-  for = "/"
-  [headers.values]
-    Cache-Control = "no-cache"
+[headers.values]
+Cache-Control = "max-age=31536001"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "no-cache"
+for = "/"
+
+[headers.values]
+Cache-Control = "no-cache"
+
+[[headers]]
+for = "/*.html"
+
+[headers.values]
+Cache-Control = "no-cache"
+
+[build]
+command = "npm run build"
+publish = "dist"
