@@ -1,0 +1,101 @@
+{
+  "id": "96b450bb-86de-49a3-b06f-54d9778444cf",
+  "title": "HAX Single Site",
+  "author": "",
+  "description": "",
+  "license": "by-sa",
+  "metadata": {
+    "author": {
+      "image": "",
+      "name": "",
+      "email": "",
+      "socialLink": ""
+    },
+    "site": {
+      "name": "haxtheweb",
+      "logo": "assets/banner.jpg",
+      "settings": {
+        "lang": "en-US",
+        "publishPagesOn": true,
+        "pathauto": true,
+        "sw": false,
+        "forceUpgrade": true,
+        "gaID": "",
+        "private": false,
+        "canonical": true
+      },
+      "created": 1698074988,
+      "updated": 1779311022,
+      "git": {
+        "vendor": "github",
+        "branch": "gh-pages"
+      },
+      "version": "26.0.0",
+      "static": {},
+      "tags": "website, haxtheweb, hax",
+      "domain": ""
+    },
+    "theme": {
+      "element": "clean-portfolio-theme",
+      "path": "@haxtheweb/clean-portfolio-theme/clean-portfolio-theme.js",
+      "name": "Clean Portfolio",
+      "thumbnail": "@haxtheweb/haxcms-elements/lib/theme-screenshots/theme-clean-portfolio-theme-thumb.jpg",
+      "description": "Start with a blank site using the Clean Portfolio",
+      "category": [
+        "Website"
+      ],
+      "hidden": false,
+      "priority": -10,
+      "terrible": false,
+      "variables": {
+        "image": "",
+        "imageAlt": "",
+        "imageLink": "",
+        "cssVariable": "--simple-colors-default-theme-deep-purple-7",
+        "palette": "8",
+        "icon": "hax:wizard-hat"
+      },
+      "regions": {
+        "header": [],
+        "sidebarFirst": [],
+        "sidebarSecond": [],
+        "contentTop": [],
+        "contentBottom": [],
+        "footerPrimary": [],
+        "footerSecondary": []
+      }
+    },
+    "node": {
+      "fields": {}
+    },
+    "build": {
+      "version": "7.0.15",
+      "structure": "course",
+      "type": "own"
+    },
+    "platform": {}
+  },
+  "items": [
+    {
+      "id": "item-fe4da09a-b9cf-483d-b2d5-6397785f61fe",
+      "indent": 0,
+      "location": "pages/item-fe4da09a-b9cf-483d-b2d5-6397785f61fe/index.html",
+      "slug": "welcome",
+      "order": 0,
+      "parent": null,
+      "title": "Welcome",
+      "description": "Welcome to your new HAX site! Click edit on the top bar to get started\nThis is a boilerplate so that you can add and make new things from the npx @haxtheweb/haxcms-nodejscommand\nWhat can I do?\nWe've ",
+      "metadata": {
+        "created": 1689962391,
+        "updated": 1779310967,
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1,
+        "videos": [],
+        "images": [],
+        "status": ""
+      }
+    }
+  ]
+}
